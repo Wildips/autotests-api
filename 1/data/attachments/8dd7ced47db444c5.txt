@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTIxVDA4OjA4OjM2LjQ2OTgxMSIsInVzZXJfaWQiOiJjODVmZmFmNi03NTZjLTQ3ODUtODRjNi01NjM1MWY3NWE2N2YifQ.QfawSC_kIjeeCKelLAWL4EDMKGYB7Sp2AzJeZ2IKIlM' \
+  -H 'content-length: 426' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Reason relate admit less realize father.","maxScore":71,"minScore":16,"description":"Similar economic plant college. High less water teach old artist piece.\nAge officer amount work. Walk old fill wear nice which pretty relate. Them win bed decide dream. Trip wrong trial her.","estimatedTime":"2 weeks","previewFileId":"ed277da8-c68a-472a-a953-d7fd10666e62","createdByUserId":"c85ffaf6-756c-4785-84c6-56351f75a67f"}'

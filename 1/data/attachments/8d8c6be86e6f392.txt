@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTIxVDA4OjA4OjM3LjYzOTM1NyIsInVzZXJfaWQiOiJjN2UyNjE0ZS05MjdlLTQ3M2MtOTRiOS04MzFkZDA5NDg5N2EifQ.35lTCEiAzsjSm8GNiwsrcAYjemE4QtSnHpIXA90rJrs' \
+  -H 'content-length: 443' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Today power so condition speech your any himself.","maxScore":70,"minScore":2,"description":"Rather rock million special. Give land by red back young reach. Recognize key leader.\nChurch national relationship knowledge offer store course. Modern size season national project. State five seven.","estimatedTime":"3 weeks","previewFileId":"59315a90-a1a6-4ff4-8d0f-abec40c071b4","createdByUserId":"c7e2614e-927e-473c-94b9-831dd094897a"}'

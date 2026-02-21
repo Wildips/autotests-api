@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTIxVDA4OjA4OjM4LjgwNzI0MiIsInVzZXJfaWQiOiI4YjgxY2Q5ZC1lZTk4LTRjOWItYjlkMC01YTEzZmUyNTVjNDUifQ.P0FiswbgV6HP6BQRnViFAsTrapxNTxoKlMi83WuCtUE' \
+  -H 'content-length: 338' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Idea different training glass.","maxScore":54,"minScore":22,"description":"Culture necessary source hotel style join finally consumer. Allow like main method security state. Choose to dog.","estimatedTime":"7 weeks","previewFileId":"b61e0ac7-be35-4cca-a99f-60342ebc50fc","createdByUserId":"8b81cd9d-ee98-4c9b-b9d0-5a13fe255c45"}'

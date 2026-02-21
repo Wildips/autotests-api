@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/3f82a708-4feb-486f-827b-13f7d8f9a164' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTIxVDA4OjA4OjM1LjU3MzczNyIsInVzZXJfaWQiOiIwMTQ1MDhmNi01MTY5LTRkNDktOWEwMS0yZmI1ZjQwMGIxMTgifQ.__ntLnaqLuCPHwrO67Y1aaYUordute7I03kf65RsVkM' \
+  -H 'content-length: 252' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Factor beautiful conference course response.","maxScore":79,"minScore":18,"description":"Though but energy into help.\nProduction event religious it themselves. Thing grow address art area once. Easy walk whatever.","estimatedTime":"6 weeks"}'

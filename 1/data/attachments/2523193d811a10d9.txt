@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTIxVDA4OjA4OjM4LjIyMjI4NiIsInVzZXJfaWQiOiI5ZDdlODdiMC01NTkzLTRlZmQtOWFmMy1iNzlkYjIwNDc5M2YifQ.uHCkauFvwcm66sfkDC0n26QP4CuTWYJEp8qjrmfQDWQ' \
+  -H 'content-length: 412' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Son left cover sport.","maxScore":55,"minScore":26,"description":"Understand work appear above team. Opportunity although almost race wide beautiful strong. Carry discover perform economic.\nEconomic notice toward Congress. None lot chance body writer box whole.","estimatedTime":"1 weeks","previewFileId":"6a38d3c8-69cf-4aad-a285-24abab2a2e1c","createdByUserId":"9d7e87b0-5593-4efd-9af3-b79db204793f"}'

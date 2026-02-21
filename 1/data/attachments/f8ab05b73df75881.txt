@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTIxVDA4OjA4OjQwLjAyMDQ1NSIsInVzZXJfaWQiOiIyYTc1NWMyMC01MDYyLTQzNTctYjcwYy05ZjFlMWVjMTdmMzgifQ.vx_whwJxhYE8wVO57OCuspCHfiotwfz_eqVpCuMAY8Y' \
+  -H 'content-length: 335' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Much number treatment process perhaps relate something.","maxScore":75,"minScore":12,"description":"Office themselves professor series often. However consider speak summer house during.","estimatedTime":"7 weeks","previewFileId":"b1659244-14a7-42b6-8cba-4a639ca65807","createdByUserId":"2a755c20-5062-4357-b70c-9f1e1ec17f38"}'

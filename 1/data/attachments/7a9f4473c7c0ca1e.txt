@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTIxVDA4OjA4OjM1LjU3MzczNyIsInVzZXJfaWQiOiIwMTQ1MDhmNi01MTY5LTRkNDktOWEwMS0yZmI1ZjQwMGIxMTgifQ.__ntLnaqLuCPHwrO67Y1aaYUordute7I03kf65RsVkM' \
+  -H 'content-length: 425' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Probably face production represent occur floor.","maxScore":91,"minScore":11,"description":"Education much charge determine six usually operation. Federal small outside.\nCreate policy set score born our. Without once major to. Executive always office avoid around peace sea.","estimatedTime":"8 weeks","previewFileId":"1a5f04cb-dfd2-4614-b865-a1b76fef85e5","createdByUserId":"014508f6-5169-4d49-9a01-2fb5f400b118"}'

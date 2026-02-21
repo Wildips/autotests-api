@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTIxVDA4OjA4OjM5LjQzOTIwNiIsInVzZXJfaWQiOiI4MTQ0MmZmNy02YmVkLTRhMzEtYjQ5NS0yMmE2ZGFkNjY3NDkifQ.WTxBqJLCa5Wu1niRqt99bq_0NUO-l7IlslwlTpi_NC0' \
+  -H 'content-length: 340' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Your fear voice themselves American rich also pressure.","maxScore":83,"minScore":21,"description":"May real ground war expert least. Campaign relate yet small. Option six morning site rate.","estimatedTime":"9 weeks","previewFileId":"761f8f96-fd15-401f-8e6c-5615213efbb7","createdByUserId":"81442ff7-6bed-4a31-b495-22a6dad66749"}'
