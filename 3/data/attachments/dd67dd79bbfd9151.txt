@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTIxVDA4OjQzOjUwLjc2MzE3MSIsInVzZXJfaWQiOiIxNTBjYTY2My0yM2ZhLTQ1MTEtYTBlNi03YzFlNmUzOTIxOGQifQ.ca6Q73RYQ0u1VAPT_RJdUdYe6hNyDxP8DPEP2tC6PzE' \
+  -H 'content-length: 378' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Side very bit important enter.","maxScore":88,"minScore":22,"description":"Camera friend science hour them gas. Assume easy discover turn should.\nForget oil benefit two day forward. Message help something nor local law require.","estimatedTime":"1 weeks","previewFileId":"bb146aad-54e0-4ff4-9fc0-8f1d37ccb018","createdByUserId":"150ca663-23fa-4511-a0e6-7c1e6e39218d"}'

@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/0cd8ee28-dbd7-4213-89bb-601e9a4aff77' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTIxVDA4OjQzOjQ2LjkxODE5NyIsInVzZXJfaWQiOiI5NWJiNjAxOC0zOWIwLTRkODMtYmZmZi04NmNhODdlNzU1NjIifQ.wutSa0mcddE6I9GPFMJaS7axJkCDfv6VM7LnPonxJdI' \
+  -H 'content-length: 268' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Not white every throw.","maxScore":92,"minScore":11,"description":"Career state perhaps nothing range learn.\nLetter range media little. Lead teach already than charge life. Begin establish region finish certain center town break.","estimatedTime":"9 weeks"}'

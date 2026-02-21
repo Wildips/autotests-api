@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTIxVDA4OjQzOjQ4LjY2OTQxNCIsInVzZXJfaWQiOiI2NjZmZTE0ZC1mZGJiLTQxNzYtOTUyMi04ZTIyNWU1YWNlMWIifQ.iTrdcH4cwWKecBFxJIF5lib45ojW7O2hu7HXhIB1y3g' \
+  -H 'content-length: 417' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Trade today type assume determine.","maxScore":90,"minScore":23,"description":"Environmental traditional walk identify air main. No another learn poor keep also. Finish local fly owner soldier. Add let medical affect situation.\nSouth Democrat scene base other hair.","estimatedTime":"10 weeks","previewFileId":"d5830d90-223d-4259-91aa-d4c6589aaa22","createdByUserId":"666fe14d-fdbb-4176-9522-8e225e5ace1b"}'

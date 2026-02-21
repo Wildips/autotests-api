@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTIxVDA4OjQzOjQ2LjkxODE5NyIsInVzZXJfaWQiOiI5NWJiNjAxOC0zOWIwLTRkODMtYmZmZi04NmNhODdlNzU1NjIifQ.wutSa0mcddE6I9GPFMJaS7axJkCDfv6VM7LnPonxJdI' \
+  -H 'content-length: 348' \
+  -H 'content-type: application/json' \
+  -d '{"title":"As direction treat degree.","maxScore":95,"minScore":14,"description":"Information discover teacher her Mrs citizen. Ask field type now short child despite song. Behind agent always beyond process.","estimatedTime":"10 weeks","previewFileId":"7b237012-f269-419d-a01d-c5996618f43d","createdByUserId":"95bb6018-39b0-4d83-bfff-86ca87e75562"}'

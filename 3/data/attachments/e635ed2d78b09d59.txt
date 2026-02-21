@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTIxVDA4OjQzOjQ4LjY2OTQxNCIsInVzZXJfaWQiOiI2NjZmZTE0ZC1mZGJiLTQxNzYtOTUyMi04ZTIyNWU1YWNlMWIifQ.iTrdcH4cwWKecBFxJIF5lib45ojW7O2hu7HXhIB1y3g' \
+  -H 'content-length: 311' \
+  -H 'content-type: application/json' \
+  -d '{"title":"During analysis education control.","courseId":"7ad6a718-ebed-4970-b9a7-9f5e863905a5","maxScore":66,"minScore":30,"orderIndex":31,"description":"Ever response maintain. Southern top sometimes arrive play challenge next. Cause chance institution two recognize memory pretty.","estimatedTime":"2 weeks"}'

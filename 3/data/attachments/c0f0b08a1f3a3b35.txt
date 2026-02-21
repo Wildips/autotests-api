@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTIxVDA4OjQzOjUxLjAzNzIwNSIsInVzZXJfaWQiOiIzOTRjNWIzMC1mNDg3LTRmMTMtYTZiZC1kOTNmMDYwZTQxZjQifQ.JOHhhBv_LQpRNaghDnO_5vU6d69J8avosfj3jQxGtXQ' \
+  -H 'content-length: 381' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Picture like inside road low line employee.","maxScore":97,"minScore":4,"description":"In expert employee. Though local company hope sense truth.\nHave reason learn central spring position. School stock data goal worry window size.","estimatedTime":"5 weeks","previewFileId":"19cf1fe8-49bc-4de5-9091-78e869c2e196","createdByUserId":"394c5b30-f487-4f13-a6bd-d93f060e41f4"}'

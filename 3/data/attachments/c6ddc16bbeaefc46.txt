@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTIxVDA4OjQzOjQ5LjgzOTE1NCIsInVzZXJfaWQiOiJmMjBhZjAwMi03NmE3LTRkNzItYjhhYi1hY2IwOTI3NmY3ZmEifQ.ZHrQHregupMy1J2RFByJdRrgfBpFX7ZpKvsuf8ujv7U' \
+  -H 'content-length: 375' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Woman ask read decade actually research ball.","maxScore":60,"minScore":17,"description":"Possible entire value subject item threat father man. Even two improve security score nature level. Require someone skin room officer.","estimatedTime":"10 weeks","previewFileId":"3366d036-4824-43b9-a89e-696bf8548a21","createdByUserId":"f20af002-76a7-4d72-b8ab-acb09276f7fa"}'
