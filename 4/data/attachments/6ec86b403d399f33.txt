@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTI0VDIyOjQwOjAwLjE5MDg4OCIsInVzZXJfaWQiOiJmN2Q4YjEwOC1iODczLTQwNTItYmIxOS03NmY1YWMwZmEzZjEifQ.biJ0ICcX3yJZ2sKGpe9wb3b0R29I-hQpg_Q17iLLLMg' \
+  -H 'content-length: 376' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Site I image study.","maxScore":65,"minScore":20,"description":"She without newspaper simple. Human camera garden have since statement up player.\nDifficult yourself around tend know develop fly. Tonight leader can level lose.","estimatedTime":"5 weeks","previewFileId":"648037f9-de76-4af9-bbeb-c8ea8a876bbd","createdByUserId":"f7d8b108-b873-4052-bb19-76f5ac0fa3f1"}'

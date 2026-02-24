@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTI0VDIyOjQwOjAxLjk4Nzk4NiIsInVzZXJfaWQiOiIxNzIyYzAwOC0wZTAwLTRkMDMtOTAzYi04OGRhOWRhOWI1OTkifQ.0lVFWDtTpw7s-DxhOWTLZsASrKV3ZyIgWW-OeQjH0xg' \
+  -H 'content-length: 317' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Energy area project discover take rate.","maxScore":77,"minScore":4,"description":"Sea its over discover board knowledge. Situation camera exactly different color Mrs.","estimatedTime":"7 weeks","previewFileId":"21d961d0-7133-474e-b3bd-cc923f373aad","createdByUserId":"1722c008-0e00-4d03-903b-88da9da9b599"}'

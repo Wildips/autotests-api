@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTI0VDIyOjQwOjAxLjM1OTE4NiIsInVzZXJfaWQiOiJlYzhjOTQxOS1iZmZjLTRmNjktYmM4Mi03OTllMjE0N2VhZTMifQ.DncJxDWbyNSdeEMTMfZLkRNg4kEVp2PG8H1rL8_CCdE' \
+  -H 'content-length: 439' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Score study watch student responsibility physical challenge between.","maxScore":99,"minScore":28,"description":"Without bag no poor. Start simply cause voice. International rock similar each pick and.\nReach capital why next. Cause outside act fund middle physical suggest. Camera the be.","estimatedTime":"7 weeks","previewFileId":"cf7d8772-f46b-44d4-ae5d-3679d7773ab0","createdByUserId":"ec8c9419-bffc-4f69-bc82-799e2147eae3"}'

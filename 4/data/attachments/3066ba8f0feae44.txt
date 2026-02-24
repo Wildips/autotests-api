@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTI0VDIyOjM5OjU5LjYwNzY2OCIsInVzZXJfaWQiOiJhNzNhNjVkNy1jMjBlLTRjYTgtYThhYi0xZjU5MmFmZmEyYzQifQ.1O9MFZntPgyhvSe_nUIaTbc2axWbsXJO80dmxGFVpqU' \
+  -H 'content-length: 370' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Game visit some them.","maxScore":96,"minScore":23,"description":"Purpose little compare physical difficult. Now record ability form thought around.\nWhole really six control. Deep dog artist value degree peace military.","estimatedTime":"2 weeks","previewFileId":"eb560134-4186-424b-92c2-29f10a9ebedd","createdByUserId":"a73a65d7-c20e-4ca8-a8ab-1f592affa2c4"}'
