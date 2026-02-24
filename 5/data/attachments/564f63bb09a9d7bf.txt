@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTI0VDIzOjExOjUwLjgwMDgyNSIsInVzZXJfaWQiOiJlMjRjYjkwNS1hYTEyLTQxMjMtOGFiYy1kNDQ3MGFkNWJlN2QifQ.KOcplylWU6VTxJpSPGsj8rqfbvcLFvjf-7mwdXXNbDw' \
+  -H 'content-length: 409' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Of training trial store successful young natural.","maxScore":65,"minScore":11,"description":"Machine choose claim a generation. Occur him common might ask.\nStory character season certain participant consumer generation project. Street mouth think yard road.","estimatedTime":"5 weeks","previewFileId":"70fbdc69-92bb-43c7-8a9e-eb32d00883db","createdByUserId":"e24cb905-aa12-4123-8abc-d4470ad5be7d"}'

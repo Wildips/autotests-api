@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTI0VDIzOjExOjQ5LjYzNDk3NyIsInVzZXJfaWQiOiI1ZTE3OTFjNi0xYTAyLTQ4ZDUtOGNlNy0yOGZiMWZkMmM4MmMifQ.7n1p8jCbcManN90b6O_bZV1RuX9pJMTCB8gx0Q1rulI' \
+  -H 'content-length: 359' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Model staff capital whether work.","maxScore":75,"minScore":9,"description":"Skin million set reach point. Heavy almost finally issue although most street on.\nStructure certainly remain. Least old little sea.","estimatedTime":"5 weeks","previewFileId":"59a3f777-1a14-4428-8693-40ed729723f2","createdByUserId":"5e1791c6-1a02-48d5-8ce7-28fb1fd2c82c"}'

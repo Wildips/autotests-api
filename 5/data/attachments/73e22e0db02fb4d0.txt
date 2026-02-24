@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTI0VDIzOjExOjUyLjYwNzY1NSIsInVzZXJfaWQiOiJiMDlhN2E0Yy0yOGU4LTQ4ZDUtYjI2NC0xYTcwZGIzNzhiNDUifQ.vbq9msc8Wk0j0Jp7KOd_p4N8SYrV-fIqqFrf1hUX9Xo' \
+  -H 'content-length: 329' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Kind rich voice sing.","courseId":"c4322099-76e8-4aa8-9d3a-3d4ae1dca385","maxScore":63,"minScore":13,"orderIndex":92,"description":"Say address concern tonight certainly person. Find attack wait society three where focus. Writer mind sometimes decade.\nWonder change good about own attorney.","estimatedTime":"8 weeks"}'

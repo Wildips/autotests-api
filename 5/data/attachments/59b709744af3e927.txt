@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/9dbdaf7a-35d6-4a04-a858-2973d3d3a44e' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTI0VDIzOjExOjQ4Ljc0MDkwMiIsInVzZXJfaWQiOiI1MzgyYzU5NC1hYmQzLTQ3NTItOTViYS05MTIzY2QyYTNlOTAifQ.MdUgTRTIeVnoOfh6Vu2emNDipxitOIl5cJPy1fLbeSo' \
+  -H 'content-length: 293' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Sing article bank plant.","maxScore":90,"minScore":26,"description":"Billion investment area plan pay miss again. Return assume write available reach energy. Soon new example put moment practice economic. Budget why discover part community strategy total.","estimatedTime":"1 weeks"}'

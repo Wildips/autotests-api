@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTI0VDIzOjExOjUyLjYwNzY1NSIsInVzZXJfaWQiOiJiMDlhN2E0Yy0yOGU4LTQ4ZDUtYjI2NC0xYTcwZGIzNzhiNDUifQ.vbq9msc8Wk0j0Jp7KOd_p4N8SYrV-fIqqFrf1hUX9Xo' \
+  -H 'content-length: 318' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Much project seat nearly government show more.","maxScore":81,"minScore":16,"description":"Design arrive despite plan early. West leave idea social quite product bring.","estimatedTime":"9 weeks","previewFileId":"07f838df-8dc8-4ab0-ab7f-077e7ae1c925","createdByUserId":"b09a7a4c-28e8-48d5-b264-1a70db378b45"}'

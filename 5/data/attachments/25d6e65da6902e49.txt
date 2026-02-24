@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTI0VDIzOjExOjUzLjE4ODUyMSIsInVzZXJfaWQiOiJhYmQyNmZjMC0yNjczLTQyOTMtYWIzYS0yMjhlNmE2MTRhMDcifQ.WedPPqyyPGyqv7p7HTmM1nlq2pyZG6A0eqZswZX6b5E' \
+  -H 'content-length: 347' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Each west sort will significant mission.","maxScore":60,"minScore":4,"description":"Young military draw fine true treat. Discussion music respond offer than east. Tree once particularly more thank.","estimatedTime":"5 weeks","previewFileId":"74e7fd2c-37c4-447d-ac8a-f9cd3b48698d","createdByUserId":"abd26fc0-2673-4293-ab3a-228e6a614a07"}'

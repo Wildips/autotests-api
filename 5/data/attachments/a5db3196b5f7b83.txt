@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTI0VDIzOjExOjUxLjk3MTcwMCIsInVzZXJfaWQiOiJmZWNhYzk1Mi1iMzkzLTRkNWMtOGMxMS1kYmQ1Mjk1MTVhMWQifQ.Zl1LktoWSqW57VuTVREG0HBlwZIW_I4dPF6jIeo6jRo' \
+  -H 'content-length: 384' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Then risk from.","maxScore":81,"minScore":15,"description":"Financial social on city case follow. Just community policy run she practice director customer. Decade score skin born.\nResult fall wish third. Church through hundred raise.","estimatedTime":"6 weeks","previewFileId":"b47e84f5-d1d9-451b-b21b-3b72564d64ca","createdByUserId":"fecac952-b393-4d5c-8c11-dbd529515a1d"}'

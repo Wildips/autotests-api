@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTI0VDIzOjExOjUxLjM4NjA1MyIsInVzZXJfaWQiOiI4ZWJlNzliMy0yOTIyLTRjMmMtYjIzMy02NmQ2ZjY5Mzg4MWYifQ.2yG5KORXEeCDMweHLtMM6f9yh9a3dYbI1gMYMj5_lHQ' \
+  -H 'content-length: 344' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Drive beautiful visit until word.","maxScore":61,"minScore":10,"description":"Wrong finally situation kind simple step then. Member exist knowledge free face leader. Decade away party newspaper.","estimatedTime":"2 weeks","previewFileId":"9ab1c163-10e6-413d-b97f-d871c2b55774","createdByUserId":"8ebe79b3-2922-4c2c-b233-66d6f693881f"}'

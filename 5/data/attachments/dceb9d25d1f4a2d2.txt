@@ -1,0 +1,26 @@
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:29 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:29 Make GET request to http://localhost:8000/api/v1/exercises?courseId=db246488-eec4-479b-bf71-5e53f86197bc
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/exercises?courseId=db246488-eec4-479b-bf71-5e53f86197bc
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:110 Check get exercises response
+INFO     BASE_ASSERTIONS:base.py:74 Check that length of "exercises" equals to 1
+INFO     EXERCISES_ASSERTIONS:exercises.py:42 Check exercise
+INFO     BASE_ASSERTIONS:base.py:38 Check that "id" equals to b7b5b089-ff5d-4ee0-990c-5880b745a259
+INFO     BASE_ASSERTIONS:base.py:38 Check that "title" equals to Charge animal campaign when.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "course_id" equals to db246488-eec4-479b-bf71-5e53f86197bc
+INFO     BASE_ASSERTIONS:base.py:38 Check that "max_score" equals to 92
+INFO     BASE_ASSERTIONS:base.py:38 Check that "min_score" equals to 23
+INFO     BASE_ASSERTIONS:base.py:38 Check that "order_index" equals to 17
+INFO     BASE_ASSERTIONS:base.py:38 Check that "description" equals to Green operation career well task. Explain American back place responsibility reason Mr lawyer.
+Over front could full foot drive. American popular analysis. Total argue real character way worry out.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals to 6 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema
