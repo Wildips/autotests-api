@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTI2VDIyOjQ4OjIxLjA4OTYwMyIsInVzZXJfaWQiOiJkNThiZjM0NS05MGQ4LTQwMGYtODMyNy0xN2ZlODliMGJkMjEifQ.2yKRqeSfCDmYzkvkjpxleZACtKDzzkGd1s1KkPg9Ofo' \
+  -H 'content-length: 330' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Everybody brother own onto billion here off.","maxScore":77,"minScore":25,"description":"Central upon suddenly news become possible. Minute character early ok want him indeed wear.","estimatedTime":"5 weeks","previewFileId":"9b541ab8-9ca1-4738-838b-d093ae391c05","createdByUserId":"d58bf345-90d8-400f-8327-17fe89b0bd21"}'

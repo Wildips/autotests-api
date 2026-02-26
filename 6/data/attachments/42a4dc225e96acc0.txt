@@ -1,0 +1,8 @@
+curl -X 'GET' \
+  'http://localhost:8000/api/v1/exercises/4b9f421c-a0f0-493d-898c-11364d87b895' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTI2VDIyOjQ4OjIxLjY3MTE5MSIsInVzZXJfaWQiOiJjNTdjZWNiMS04YWUwLTQ2OGEtYTljZi04MDdiNjM2MWNlYTMifQ.x5VmPysGTPbfDCv-R7ag-38FMD4W7CbeYL3VPHCej7E'

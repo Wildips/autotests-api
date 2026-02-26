@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTI2VDIyOjQ4OjIwLjUwMzY5NyIsInVzZXJfaWQiOiJkMmM0ZDYxZC01MmM5LTQ5MDYtOWY2NS1mYWYyNzk1OTE5YjUifQ.vGZw9GOf9kGPh3-IBXfZshJAWMCMp17QiecTl27aOUw' \
+  -H 'content-length: 402' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Nor within right western its them.","maxScore":94,"minScore":24,"description":"Listen impact staff network probably surface. Ask collection goal agreement trouble. Particularly ball able gas race dog usually too. Large food seek process ready room bed.","estimatedTime":"6 weeks","previewFileId":"4753f420-57b8-47ff-91ae-e492652d1156","createdByUserId":"d2c4d61d-52c9-4906-9f65-faf2795919b5"}'

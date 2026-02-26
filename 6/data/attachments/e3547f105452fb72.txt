@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTI2VDIyOjQ4OjIyLjg5NTY0MiIsInVzZXJfaWQiOiI0NmEzMDcxMC0zZjE0LTQzZGQtOTViMi1kMWRhNGNiYzVlMzkifQ.W1UXtkTH0pA9-iYxBIoCrhrHtexSsgOZ1o7dIqYUBJk' \
+  -H 'content-length: 412' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Wait machine today standard south back.","maxScore":61,"minScore":19,"description":"Candidate growth mission gun agreement. History gas maintain own.\nSame carry mean suddenly mouth Republican. Girl attack house myself I. Draw family what enter board good seat.","estimatedTime":"10 weeks","previewFileId":"3c9f369b-177a-4300-9bd8-356c5d67e978","createdByUserId":"46a30710-3f14-43dd-95b2-d1da4cbc5e39"}'

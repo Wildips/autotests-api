@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTI2VDIyOjQ4OjIyLjMxMTgyOSIsInVzZXJfaWQiOiIzN2JmZGRmYy1lZTUyLTRmYmEtOGU2Zi0yMDMzNjAzNWIzNTIifQ.TN_wgJ4WhorKdSGcS5kvhEm0letUcJdj3Xiwp85S3qA' \
+  -H 'content-length: 309' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Often purpose moment improve.","maxScore":80,"minScore":30,"description":"Inside girl feeling mission everything approach. Would record consumer task interest.","estimatedTime":"3 weeks","previewFileId":"c2414839-d97c-4b3f-8b1b-1a03e450c775","createdByUserId":"37bfddfc-ee52-4fba-8e6f-20336035b352"}'

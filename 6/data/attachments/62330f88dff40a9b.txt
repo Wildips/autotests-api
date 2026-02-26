@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTI2VDIyOjQ4OjE4LjQzMTU1OCIsInVzZXJfaWQiOiJlZjY1ZDNlZS03ZTU2LTRmZTItYTBmYS1jZTgyOTNmMzg1ZjkifQ.sehvurgzQIaKBUcQu8xQpmqjl-xi_Rb49yfpE-leJWw' \
+  -H 'content-length: 396' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Most really five which police.","maxScore":58,"minScore":4,"description":"Approach practice half shake order. Without cost must finally oil skin big.\nShare manager guess true read wonder already. Month although simply. Man policy none necessary.","estimatedTime":"2 weeks","previewFileId":"4dadb90b-ba87-4127-9ad4-f42c679cca15","createdByUserId":"ef65d3ee-7e56-4fe2-a0fa-ce8293f385f9"}'

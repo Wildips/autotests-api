@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTI2VDIyOjQ4OjIxLjA4OTYwMyIsInVzZXJfaWQiOiJkNThiZjM0NS05MGQ4LTQwMGYtODMyNy0xN2ZlODliMGJkMjEifQ.2yKRqeSfCDmYzkvkjpxleZACtKDzzkGd1s1KkPg9Ofo' \
+  -H 'content-length: 365' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Although hand choice anyone boy.","courseId":"5b63ca49-38e9-4bb2-be14-ca2be35e79a0","maxScore":99,"minScore":8,"orderIndex":25,"description":"Moment lay attorney budget decade away those performance.\nGo answer often. Management TV real total weight any team.\nSport account item entire language analysis color. Raise do stuff.","estimatedTime":"9 weeks"}'

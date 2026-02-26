@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTI2VDIyOjQ4OjIxLjY3MTE5MSIsInVzZXJfaWQiOiJjNTdjZWNiMS04YWUwLTQ2OGEtYTljZi04MDdiNjM2MWNlYTMifQ.x5VmPysGTPbfDCv-R7ag-38FMD4W7CbeYL3VPHCej7E' \
+  -H 'content-length: 385' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Member hope smile nearly.","maxScore":61,"minScore":21,"description":"Summer wife personal prepare thought. Week live lawyer project condition chair. Manager trial wish short learn. Computer want including hundred article main college.","estimatedTime":"5 weeks","previewFileId":"6d292fbd-7ad5-4133-8db4-dfa8c6f8f467","createdByUserId":"c57cecb1-8ae0-468a-a9cf-807b6361cea3"}'

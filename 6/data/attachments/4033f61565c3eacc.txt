@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTI2VDIyOjQ4OjE5LjkxODI1NiIsInVzZXJfaWQiOiJlOWJkMTQwNC02MmJjLTQyNGYtYjkwYy1hMjRmMzlkZDRlMmYifQ.qSBLvZESPcJqhTRSSi5cyGB_Gk71taTk2TtCo9oF2XI' \
+  -H 'content-length: 404' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Stand stage good picture information.","maxScore":80,"minScore":30,"description":"Industry guy black new view feel their. Always try not moment return half.\nReligious health until safe pull. Hit leader stock hear station radio. Support run what popular.","estimatedTime":"7 weeks","previewFileId":"d6bab62a-ba3a-4cb4-b92f-a84b4f4891b4","createdByUserId":"e9bd1404-62bc-424f-b90c-a24f39dd4e2f"}'
